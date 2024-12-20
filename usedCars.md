@@ -4,11 +4,11 @@
 | -------------- | ----------- | ----------------------------------- | ------- |
 | id             | BIGINT(20)  | NOT NULL - AUTOINCREMENT - UNSIGNED | PRIMARY |
 | plate_number   | VARCHAR(7)  |                                     |         |
-| brand          | VARCHAR(40) | NOT_NULL                            |         |
-| model          | VARCHAR(40) | NOT_NULL                            |         |
-| kilometers     | MEDIUMINT   | NOT_NULL - DEFAULT(0) - UNSIGNED    |         |
-| fuel           | CHAR(1)     | NOT_NULL                            |         |
-| conditions     | CHAR(1)     | NOT_NULL                            |         |
-| color_EX       | CHAR(6)     | NOT_NULL                            |         |
-| owners_numbers | CHAR(3)     | NOT_NULL - DEFAULT(0) - UNSIGNED    |         |
-| year           | CHAR(4)     | NOT_NULL - UNSIGNED                 |         |
+| brand          | VARCHAR(40) | NOT NULL                            |         |
+| model          | VARCHAR(40) | NOT NULL                            |         |
+| kilometers     | MEDIUMINT   | NOT NULL - DEFAULT(0) - UNSIGNED    |         |
+| fuel           | CHAR(1)     | NOT NULL                            |         |
+| conditions     | CHAR(1)     | NOT NULL                            |         |
+| color_EX       | VARCHAR(7)  | NOT NULL                            |         |
+| owners_numbers | TINYINT     | NOT NULL - DEFAULT(0) - UNSIGNED    |         |
+| year           | YEAR        | NOT NULL - UNSIGNED                 |         |
